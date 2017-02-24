@@ -1,6 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER lijiapeng , lijiapengas@gmail.com
 
+
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install software-properties-common && \
     add-apt-repository ppa:webupd8team/java && \
